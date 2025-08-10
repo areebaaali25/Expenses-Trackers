@@ -4,7 +4,7 @@ def add_expense():
     name = input("Enter expense name: ")
     amount = float(input("Enter amount: "))
     expenses.append({"name": name, "amount": amount})
-    print(f"Added: {name} - ${amount:.2f}")
+    print(f"✅ Added: {name} - ${amount:.2f}")
 
 def show_expenses():
     if not expenses:
@@ -28,7 +28,7 @@ while True:
     elif choice == "2":
         show_expenses()
     elif choice == "3":
-        print("Goodbye!")
+        print("Goodbye! 💰")
         break
 
 
